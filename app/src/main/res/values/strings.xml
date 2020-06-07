@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="title_activity_sign_in">Sign in</string>
+
+    <array name="trucks">
+        <item>Default</item>
+        <item>6 wheel 14 feet</item>
+        <item>10 wheel 22 feet</item>
+        <item>14 wheel 22 feet</item>
+    </array>
+    <array name="types">
+        <item>Food</item>
+        <item>Cotton and Textiles</item>
+        <item>Iron and Steel</item>
+        <item>Mineral Fuels and oils</item>
+        <item>Pharmaceuticals</item>
+    </array>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="desc">To get started, head on to the menu and select an utility that matches your requirement</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_pstart">pstart</string>
+    <string name="app_name">LogiX</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_route">Map</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="new_pass">New Password</string>
+    <string name="btn_remove">Remove</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="btn_sign_out">Sign Out</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_inputs_map">Map</string>
+    <string name="title_activity_inputs_map2">Map</string>
+    <string name="title_activity_assets_dash">AssetsDash</string>
+    <string name="title_activity_mapsact1">Map</string>
+
+</resources>

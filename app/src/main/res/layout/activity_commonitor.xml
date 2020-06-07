@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Commonitor">
+
+
+
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commodity Monitor"
+        android:textSize="34dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                android:text="Truck ID" />
+            <TextView
+                android:id="@+id/tv34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:text="1A124"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+               android:layout_marginLeft="39dp"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:text="Crate ID"/>
+            <TextView
+                android:id="@+id/tvcid"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="2dp"
+                android:textSize="19dp"
+                android:layout_height="wrap_content"
+                android:text="10101"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contents"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/tvcontents"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_height="wrap_content"
+                android:text="Iron Steel Cotton Food CHemicals"/>
+
+
+        </LinearLayout>
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="150dp"
+            tools:context=".Commonitor" />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="119dp"
+        android:layout_marginStart="24dp"
+        android:text="Vibration" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="119dp"
+        android:layout_marginStart="120dp"
+        android:text="Flame" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="119dp"
+        android:layout_marginStart="186dp"
+        android:text="Temperature" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="119dp"
+        android:layout_marginStart="300dp"
+        android:text="Humidity" />
+
+    <TextView
+        android:id="@+id/vibration"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_bg_round"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="0val" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/vibration"
+        android:layout_marginEnd="111dp"
+        android:background="@drawable/button_bg_round"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Temp" />
+
+    <TextView
+        android:id="@+id/humid"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/vibration"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/button_bg_round"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Humid" />
+
+    <TextView
+        android:id="@+id/heat"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/vibration"
+        android:layout_marginStart="110dp"
+        android:background="@drawable/button_bg_round"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Heat" />
+
+</RelativeLayout>

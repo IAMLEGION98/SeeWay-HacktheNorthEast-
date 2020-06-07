@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#F3F4E9"
+    tools:context="com.example.anupam.logix1.BuyActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:alpha="0.1"
+
+        android:src="@drawable/monitor_bg" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_gravity="center"
+        android:layout_marginStart="106dp"
+
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="89dp"
+        android:text="EXIM dealers online"
+        android:textColor="@color/black"
+        android:textScaleX="1.1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="51dp">
+
+        <RelativeLayout
+            android:id="@+id/rl0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buy1"
+                android:layout_width="380dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="1sp"
+                        android:background="@drawable/cerclebackgroundnew"
+                        android:padding="10dp"
+                        android:src="@drawable/alibaba" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10dp"
+                        android:text="Alibaba"
+                        android:textSize="25sp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/rl0"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="150dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buy2"
+                android:layout_width="380dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="1sp"
+                        android:background="@drawable/cerclebackgroundnew"
+                        android:padding="10dp"
+                        android:src="@drawable/mart" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10dp"
+                        android:text="India Mart"
+                        android:textSize="25sp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/rl11"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="300dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/buy3"
+                android:layout_width="380dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="1sp"
+                        android:background="@drawable/cerclebackgroundnew"
+                        android:padding="10dp"
+                        android:src="@drawable/ec21" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10dp"
+                        android:text="E C 2 1"
+                        android:textSize="25sp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
