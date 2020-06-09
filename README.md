@@ -1,4 +1,4 @@
-# SeeWay-HacktheNorthEast-
+# SeeWay
 
 ## Inspiration
 
@@ -36,6 +36,15 @@ It has the following modules:
 5. **Analytics Dashboard:**- Managers have an overall view of the trends seen in the environment of the items in transit as well as drivers in a comprehensive web app.
 6. **Currency Rates**- Managers can easily see the trends of the economy as well as the present currency rates.
 7. **Customer Base**- The app has also links to third-party market places like Ali Baba, Market India & so on - these links are helpful for local traders/suppliers using our app since most of them are not aware of the popular online market places out there. 
+
+## Value to Customers 
+
+![Value to Customers](https://github.com/IAMLEGION98/SeeWay-HacktheNorthEast-/blob/master/Value_To_Stakeholders.JPG)
+
+## Customer Acquisition
+
+![Customer Acquisition](https://github.com/IAMLEGION98/SeeWay-HacktheNorthEast-/blob/master/Customer_Acquisition.JPG)
+
 
 ## How we built it
 
